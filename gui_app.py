@@ -1,9 +1,7 @@
 """
 🏥 NY Hospital Charges Prediction - GUI Application (Improved Version)
 =======================================================================
-Đề tài: Phân tích và Dự đoán Chi phí Nhập viện tại các Bệnh viện Bang New York (2009)
-
-Môn: Machine Learning - Kỳ thi cuối kỳ
+Exploratory analysis and prediction of New York hospital charges (2009).
 Hướng dẫn chạy:
     1. Cài đặt thư viện: pip install streamlit pandas numpy scikit-learn plotly seaborn
     2. Chạy ứng dụng: streamlit run gui_app.py
@@ -315,9 +313,7 @@ def main():
     with st.sidebar:
         st.markdown("### 📋 Thông tin Dự án")
         st.markdown("""
-        **Đề tài:** Phân tích, dự đoán chi phí nhập viện tại các bệnh viện bang New York (2009)
-        
-        **Môn học:** Machine Learning - Final Exam
+        **Dataset:** New York hospital discharge records (2009)
         """)
         
         st.markdown("---")
@@ -637,8 +633,8 @@ def main():
     st.markdown("---")
     st.markdown("""
     <center>
-        🎓 <strong>Machine Learning - Final Exam Project</strong><br>
-        Đề tài: Phân tích và Dự đoán Chi phí Nhập viện tại các Bệnh viện Bang New York (2009)
+        <strong>New York Hospital Charges Analysis</strong><br>
+        Exploratory analysis and regression modeling of 2009 discharge records
     </center>
     """, unsafe_allow_html=True)
 
